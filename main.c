@@ -30,6 +30,9 @@
     }Curso;
 
 
+    void addAluno(Aluno todosOsAlunos[], int *totalAlunosCadastrados, char nome[]);
+
+
 int main() {
 
 
@@ -37,3 +40,10 @@ int main() {
 
     return 0;
 }
+
+
+        void addAluno(Aluno todosOsAlunos[], int *totalAlunosCadastrados, char nome[]) {
+
+            
+
+        }
