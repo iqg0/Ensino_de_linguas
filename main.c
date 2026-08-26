@@ -22,6 +22,13 @@
         int totalAlunos;
     }Turma;
 
+    typedef struct {
+        char nomeCurso[50];
+        int totalSeries;
+        Turma turmas[10];
+        int totalTurmas;
+    }Curso;
+
 
 int main() {
 
