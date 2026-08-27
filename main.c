@@ -30,7 +30,7 @@
     }Curso;
 
 
-    void addAluno(Aluno todosOsAlunos[], int *totalAlunosCadastrados, char nome[]);
+    void cadastrarAluno(Aluno todosOsAlunos[], int *totalAlunosCadastrados, char nome[]);
 
 
 int main() {
@@ -42,8 +42,9 @@ int main() {
 }
 
 
-        void addAluno(Aluno todosOsAlunos[], int *totalAlunosCadastrados, char nome[]) {
+    void cadastrarAluno(Aluno todosOsAlunos[], int *totalAlunosCadastrados, char nome[]) {
 
-            
+        int novoIndidce = *totalAlunosCadastrados;
 
-        }
+        char strcpy(novoIndidce ,todosOsAlunos[novoIndice].nome);
+    }  
